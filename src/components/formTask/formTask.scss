@@ -1,6 +1,6 @@
 .formTask {
     margin-top: 15px;
-    background-color: #fa93fa;
+    background-color: #F7F5EB;
     color: #4a494a;
     border-radius: 10px;
     padding: 15px 0 15px 70px;
@@ -9,6 +9,7 @@
         width: 500px;
         height: 40px;
         margin-top: 15px;
+        padding-left: 10px;
         border: none;
         border-radius: 7px;
         background-color: #ebe8e8;
@@ -17,7 +18,7 @@
     &__btn {
         margin-left: 15px;
         height: 40px;
-        padding: 5px;
+        padding: 7px;
         border: none;
         border-radius: 7px;
         background-color: #4a494a;

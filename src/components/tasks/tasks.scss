@@ -1,20 +1,21 @@
 .tasks {
     margin-top: 15px;
-    background-color: #fa93fa;
+    background-color: #F7F5EB;
     color: #4a494a;
     border-radius: 10px;
     padding: 20px 0 15px 70px;
 
     &__item {
         display: flex;
-        align-items: center;
-        
+        align-items: center;  
     }
 
     &__checkbox {
         height: 20px;
         width: 20px;
-        margin-right: 7px;
+        margin-right: 15px;
+        margin-bottom: 3px;
+
     }
 
     &__name {
@@ -25,14 +26,20 @@
         display: flex;
         justify-content: center;
         margin-left: 7px;
-        height: 22px;
-        width: 22px;
+        margin-bottom: 3px;
+        height: 24px;
+        width: 24px;
         border: none;
-        background-color: #fa93fa;
+        background-color: #F7F5EB;
 
         img {
-            height: 22px;
-            width: 22px;
+            height: 24px;
+            width: 24px;
         }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
     }
 }
